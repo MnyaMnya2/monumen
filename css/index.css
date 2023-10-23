@@ -18,16 +18,17 @@ html, body{
         height: 0.7vmin;
         width: 100%;
         text-align: center;
-        font-size: 10em;
+        font-size: 2.7em;
         margin: 0%;
-        padding-top: 1.1vw;
-        color: #ffffff8c;
-        padding-bottom: 3.3vw;
+        color: #292525e0;
+        padding-bottom: 4.3vw;
     }
     #garis{
         width: 100vw;
         height: 0.5vmin; 
         background: #000;
+        border-bottom-left-radius: 10vmax;
+        border-bottom-right-radius: 10vmax;
     }
     #gambar{
     background-image: url(../img/image\(8\).jpg);
@@ -48,7 +49,7 @@ html, body{
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: url(../img/);
+        background-image: url(../img/image\(7\)\(1\).jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -136,39 +137,49 @@ html, body{
           transform: translate(-50%, -50%) rotate(0deg);
         }
       }
-      header #imgl{
+      header #img{
         width: 10vw;
         float: left;
         margin-left: 2vw;
         height: 5vmin;
-        padding-bottom: 10vmax; }   
+        padding-bottom: 10vmax; 
+        
+      }     
       #judul{
-        color: #ff00c8cb;
-        font-size: 5em;
-        text-align: right;
+        font-size: 3em;
+        text-align: left;
         padding-top: 1.5vw;
-        padding-right: 2vw;
+        padding-left: 2vw;
         margin-top: 2VW;
+        background: linear-gradient(15deg,#000000, #686868);
+        background-clip: text;
+        color: transparent;
        }
       #isi{
-        color: #000000;
         padding-top: 7vmin;
         font-size: 2em;
-        text-align: right;
-        padding-right: 2.5vw;
+        text-align: left;
+        padding-left: 2.5vw;
+        background: linear-gradient(90deg,#000000, #696161e1);
+        background-clip: text;
+        color: transparent;
       }
       #isi2{
-        color: #FFF;
         font-size: 1.7em;
-        text-align: right;
-        padding-right: 2.5vw;
+        text-align: left;
+        padding-left: 2.5vw;
+        background: linear-gradient(15deg,#ffffff, #d4d4d4);
+        background-clip: text;
+        color: transparent;
       }
       #isi3{
-        color: #FFF;
         font-size: 1.7em;
-        text-align: right;
-        padding-right: 2.5vw;
+        text-align: left;
+        padding-left: 2.5vw;
         padding-bottom: 5vw;
+        background: linear-gradient(15deg,#ffffff, #d4d4d4);
+        background-clip: text;
+        color: transparent;
       }
       footer{
         background-color: rgba(117, 111, 117, 0.918);
@@ -201,6 +212,10 @@ html, body{
           float: right;
           margin-right: 2vw;
       }
+      a:hover ,a:link ,a:visited, a{
+        all:unset;
+      }
+
     @media only screen and (max-width: 768px){
       header{
         height: 4vw;
