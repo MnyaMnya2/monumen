@@ -276,7 +276,6 @@ html, body{
         animation-delay: 0.2s;
         margin-top: 1vw;
       }
-    
       .loading .color3 {
         border-color: #ffffff;
         width: 54.5vw;
@@ -284,7 +283,6 @@ html, body{
         animation-delay: 0.4s;
         margin-top: 1vw;
       }
-    
       .loading .color4 {
         border-color: #8d8d8d;
         width: 58.2vw;
