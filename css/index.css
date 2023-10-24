@@ -237,19 +237,23 @@ html, body{
         font-size: 2em;
         margin-top: 5VW;
         color: #000;
+        background: none;
       } 
       #isi{
         font-size: 1.5em;
         color: #000;
+        background: none;
       }
       #isi2{
         font-size: 1em;
         color: #ffffff;
+        background: none;
       }
       #isi3{
         font-size: 1em;
         padding-bottom: 15vw;
         color: #ffffff;
+        background: none;
       }
       .loading h1 {
         height: 44vw;
