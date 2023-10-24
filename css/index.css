@@ -221,6 +221,7 @@ html, body{
         height: 4vw;
         padding-bottom: 4vw;
         padding-top: -1vw;
+        font-size: 1.5em;
       }
       header #imgl{
         width: 25vw;
@@ -232,18 +233,22 @@ html, body{
         }  
         
       #judul{
-        font-size: 2.1em;
+        font-size: 2em;
         margin-top: 5VW;
+        color: #000000;
       } 
       #isi{
         font-size: 1.5em;
+        color: #000000;
       }
       #isi2{
         font-size: 1em;
+        color: #ffffff;
       }
       #isi3{
         font-size: 1em;
         padding-bottom: 15vw;
+        color: #ffffff;
       }
       .loading h1 {
         height: 44vw;
@@ -264,7 +269,7 @@ html, body{
       }
     
       .loading .color2 {
-        border-color: #b004ff;
+        border-color: #514d53;
         width: 51vw;
         height: 51vw;
         animation-delay: 0.2s;
@@ -280,7 +285,7 @@ html, body{
       }
     
       .loading .color4 {
-        border-color: #ff93f6;
+        border-color: #3a393a;
         width: 58.2vw;
         height: 58.2vw;
         animation-delay: 0.6s;

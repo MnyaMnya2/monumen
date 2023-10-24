@@ -145,16 +145,20 @@ html, body{
       #judul{
         font-size: 2.1em;
         margin-top: 5VW;
+        color: #000000;
       } 
       #isi{
         font-size: 1.7em;
+        color: #000;
       }
       #isi2{
         font-size: 1.47em;
+        color: #ffffff;
       }
       #isi3{
         font-size: 1.4em;
         padding-bottom: 15vw;
+        color: #ffffff;
       }
       footer{
         font-size: 1.74em;
