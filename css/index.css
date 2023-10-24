@@ -219,8 +219,9 @@ html, body{
     @media only screen and (max-width: 768px){
       header{
         height: 4vw;
-        padding-bottom: 4vw;
-        padding-top: -1vw;
+        padding-bottom: 5vw;
+        padding-top: -2vw;
+        font-size: 1.5em;   
       }
       header #imgl{
         width: 25vw;
@@ -229,21 +230,26 @@ html, body{
         height: 5vmin;
         padding-bottom: 5vmax;  
         margin-top: 0.5VW; 
+        color: #5f5f5f;
         }  
         
       #judul{
-        font-size: 2.1em;
+        font-size: 2em;
         margin-top: 5VW;
+        color: #000;
       } 
       #isi{
         font-size: 1.5em;
+        color: #000;
       }
       #isi2{
         font-size: 1em;
+        color: #ffffff;
       }
       #isi3{
         font-size: 1em;
         padding-bottom: 15vw;
+        color: #ffffff;
       }
       .loading h1 {
         height: 44vw;
@@ -264,13 +270,12 @@ html, body{
       }
     
       .loading .color2 {
-        border-color: #b004ff;
+        border-color: #5f5f5f;
         width: 51vw;
         height: 51vw;
         animation-delay: 0.2s;
         margin-top: 1vw;
       }
-    
       .loading .color3 {
         border-color: #ffffff;
         width: 54.5vw;
@@ -278,9 +283,8 @@ html, body{
         animation-delay: 0.4s;
         margin-top: 1vw;
       }
-    
       .loading .color4 {
-        border-color: #ff93f6;
+        border-color: #8d8d8d;
         width: 58.2vw;
         height: 58.2vw;
         animation-delay: 0.6s;
